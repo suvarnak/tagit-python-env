@@ -14,7 +14,7 @@ docker build .
 
 ```
 docker login --username=suvarnakadam 
-docker tag b74269fb4474318296fcf268698ac289d09969585196a01d46bda167cc1ad77e suvarnakadam/tag-it:debian-py36
-docker push suvarnakadam/tag-it:debian-py36
+docker tag b74269fb4474318296fcf268698ac289d09969585196a01d46bda167cc1ad77e suvarnakadam/tag-it:dev
+docker push suvarnakadam/tag-it:dev
 
 ```
